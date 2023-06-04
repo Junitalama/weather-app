@@ -53,7 +53,7 @@
   const photo = document.getElementById("photo");
 
   button.addEventListener("click", function(){
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&units=metric&appid=573c7cb004f7a0e53b5e11124182b081`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&units=metric&appid=573c7cb004f7a0e53b5e11124182b081`)
   .then(function(response){
     return response.json();
   })
