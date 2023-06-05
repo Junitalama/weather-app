@@ -92,7 +92,7 @@ body {
   overflow-y: hidden;
   height: var(--thumbs-h);
   padding: var(--thumbs-py) 0;
-  background: black;
+  background: white;
 }
 
 .thumbs__link {
